@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.AccountActivity">
+
+    <com.hjq.bar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="账号与安全" />
+
+    <com.hjq.widget.layout.SettingBar
+        android:id="@+id/btn_mine_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_leftText="登录账号"
+        android:layout_marginTop="@dimen/dp_15"
+        app:bar_rightDrawable="@drawable/arrows_right_ic" />
+
+
+    <com.hjq.widget.layout.SettingBar
+        android:id="@+id/btn_mine_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_leftText="绑定手机号"
+        app:bar_rightDrawable="@drawable/arrows_right_ic" />
+
+    <com.hjq.widget.layout.SettingBar
+        android:id="@+id/btn_mine_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_leftText="忘记密码"
+        android:layout_marginTop="@dimen/dp_15"
+        app:bar_rightDrawable="@drawable/arrows_right_ic" />
+
+
+    <View
+        style="@style/HorizontalLineStyle"
+        android:layout_marginHorizontal="@dimen/dp_20" />
+
+
+</LinearLayout>
